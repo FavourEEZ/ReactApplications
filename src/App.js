@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Favour's Movie Club </h1>
-
+        <h1 className="centerText"> Favour's Movie Club </h1>
+        <a href="#" className="about" >About</a>
       </header>
       <div className="main-wrapper">
         <h3>Functional Requirement Specification</h3>
