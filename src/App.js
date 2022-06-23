@@ -17,6 +17,19 @@ function App() {
           <li> See previous movies that have been watched at the club and corressponding photos  </li>
 
         </ul>
+
+        <h3> Vision for the Club </h3>
+        <ul> 
+            <li> Will be London Based </li>             
+            <li> USing NFTs for entry - Will be sent out to members </li>
+            <li> Movies will be advertised because day </li>
+            <li> Once a month? </li>
+            <li> Free </li>
+            <li> Providing the best movie experience, good vibes, food </li>
+            <li> Deep connections/communitry - This is the power </li>
+            <li> Exclusivity: generate international interest - Have another NFT collection for people to win a spot</li>
+        </ul>
+
       </div>
     </div>
   );
