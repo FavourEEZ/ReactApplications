@@ -5,7 +5,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="centerText"> Favour's Movie Club </h1>
-        <a href="#" className="about" >About</a>
+        <a href="#" className="nav-items" >Movies</a>
+        <a href="#" className="nav-items" >Join</a>
+        <a href="#" className="nav-items" >NFT Collection</a>
+        <a href="#" className="nav-items" >Shop</a>
+        <a href="#" className="nav-items" >About</a>
       </header>
       <div className="main-wrapper">
         <h3>Functional Requirement Specification</h3>

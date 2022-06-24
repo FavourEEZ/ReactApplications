@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   color: white;
 }
 
@@ -18,6 +18,11 @@
   /* text-align: center;   */
 }
 
-.about {
-  background-color: orange;
+.nav-items {
+  /* background-color: orange; */
+  display: flex;
+  color: gray;
+  padding: 10px;
+  font: u;
+  justify-content: flex-end;
 }
