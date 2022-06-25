@@ -1,12 +1,13 @@
 import './App.css';
+import Container from '@mui/material/Container'
 
 function App() {
   return (
     <div className="App">
       <header className="">
         <nav className="App-header">
-          <div>
-            <h1 className="centerText"> Favour's Movie Club </h1>
+          <div className="logo-div">
+            <h1> Favour's Movie Club </h1>
           </div>
 
           <div className="nav-items-wrapper">
@@ -20,6 +21,7 @@ function App() {
 
       </header>
       <div className="main-wrapper">
+        {/* <Container maxWidth="sm" className='Container'> */}
         <div className="wrapper-landing-text">
           <h1>London's most exclusive movie club</h1>
           <h3>Enjoy your favourite movies with the best people.
@@ -28,8 +30,9 @@ function App() {
             decide your movie and escape to your happy place. 
           </h3>
         </div>
+        {/* </Container> */}
 
-        <div>
+        <div className='landing-content'>
 
         </div>
         <h3>Functional Requirement Specification</h3>
@@ -55,6 +58,10 @@ function App() {
         </ul>
 
       </div>
+
+      <footer id='footer'>
+        <small>© 2022 BlueOrange development. All rights reserved.</small>
+      </footer>
     </div>
   );
 }
