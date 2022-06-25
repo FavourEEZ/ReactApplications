@@ -3,15 +3,35 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="centerText"> Favour's Movie Club </h1>
-        <a href="#" className="nav-items" >Movies</a>
-        <a href="#" className="nav-items" >Join</a>
-        <a href="#" className="nav-items" >NFT Collection</a>
-        <a href="#" className="nav-items" >Shop</a>
-        <a href="#" className="nav-items" >About</a>
+      <header className="">
+        <nav className="App-header">
+          <div>
+            <h1 className="centerText"> Favour's Movie Club </h1>
+          </div>
+
+          <div className="nav-items-wrapper">
+            <a href="#" className="nav-items" >Movies</a>
+            <a href="#" className="nav-items" >Join</a>
+            <a href="#" className="nav-items" >NFT Collection</a>
+            <a href="#" className="nav-items" >Shop</a>
+            <a href="#" className="nav-items" >About</a>
+          </div>
+        </nav>
+
       </header>
       <div className="main-wrapper">
+        <div className="wrapper-landing-text">
+          <h1>London's most exclusive movie club</h1>
+          <h3>Enjoy your favourite movies with the best people.
+            Founded in 2022, we make your cinema experience one of
+            a kind. Every month, along with our amazing community,
+            decide your movie and escape to your happy place. 
+          </h3>
+        </div>
+
+        <div>
+
+        </div>
         <h3>Functional Requirement Specification</h3>
         <ul>
           <li> Portal for members to sign in </li>
