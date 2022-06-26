@@ -1,15 +1,20 @@
 .App {
-  background-color: grey;
+  /* background-color: grey; */
   height: 100vh;
 }
 
-.App-header {
+.header-nav {
+  margin-bottom: 20px;
+}
+
+.nav {
   background-color: #282c34;
   display: flex;
 
   justify-content: space-between;    
 
   color: white;
+  box-shadow: 0px 5px 5px wheat;
 }
 
 .logo-div {
@@ -40,12 +45,43 @@
   color: wheat;
 }
 
-.wrapper-landing-text{
+.main-wrapper {
+  margin-bottom: 20px;
+}
+
+.wrapper-landing-text {
+  display: flex;
+  float: left;
   width: 50%;
+  height: 70vh;
+  background-color: blueviolet;
+}
+
+.landing-text{
+  font-size:30px;
+  
+}
+
+.wrapper-landing-content {
+  background-color: aqua;
+  width: 50%;
+  height: 70vh;
+  float: right;
+  /* display: flex; */
+
+}
+
+.join-button{
+display: flex;
+justify-content: center;
+}
+
+.Container {
+  /* background-color: pink; */
 }
 
 #footer{
-  position:absolute;
+  position:fixed;
   bottom:0;
   width:100%;
   height:30px;

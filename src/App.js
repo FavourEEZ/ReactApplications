@@ -1,11 +1,12 @@
 import './App.css';
 import Container from '@mui/material/Container'
+import Button from '@mui/material/Button';
 
 function App() {
   return (
     <div className="App">
-      <header className="">
-        <nav className="App-header">
+      <header className="header-nav">
+        <nav className="nav">
           <div className="logo-div">
             <h1> Favour's Movie Club </h1>
           </div>
@@ -21,20 +22,27 @@ function App() {
 
       </header>
       <div className="main-wrapper">
-        {/* <Container maxWidth="sm" className='Container'> */}
-        <div className="wrapper-landing-text">
-          <h1>London's most exclusive movie club</h1>
-          <h3>Enjoy your favourite movies with the best people.
-            Founded in 2022, we make your cinema experience one of
-            a kind. Every month, along with our amazing community,
-            decide your movie and escape to your happy place. 
-          </h3>
+        <div className='wrapper-landing-text'> 
+        
+          <div className="landing-text">
+            <h1>London's most exclusive movie club</h1>
+            <h3>Enjoy your favourite movies with the best people.
+              Since 2022, we create a one of a kind cinema experience
+              every month. 
+            </h3>
+          </div>
         </div>
-        {/* </Container> */}
+        
+        <div className='wrapper-landing-content'>
+          <div className='join-button'>
+            <Button variant="contained" className=''> Join waiting list </Button>
 
-        <div className='landing-content'>
+          </div>
+          <Container maxWidth="sm" className='Container'>
 
+          </Container>
         </div>
+
         <h3>Functional Requirement Specification</h3>
         <ul>
           <li> Portal for members to sign in </li>
