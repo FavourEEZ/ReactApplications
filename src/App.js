@@ -40,7 +40,7 @@ export default function App() {
           </Container>
           <div className='join-button'>
             <Button variant="contained" className=''> Join waiting list </Button>
-
+            <Button variant="contained" color='success' className=''> Movies </Button>
           </div>
         </div>
       </div>

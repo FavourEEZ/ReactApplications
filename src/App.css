@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-.nav-items:hover{
+.nav-items:hover {
   color: wheat;
 }
 
@@ -54,12 +54,12 @@
   height: 70vh;
 }
 
-.landing-text{
+.landing-text {
   color: wheat;
   font-size:30px;
 }
 
-.landing-text p{
+.landing-text p {
   color: white;
 }
 
@@ -72,7 +72,7 @@
 
 }
 
-.join-button{
+.join-button {
 display: flex;
 justify-content: center;
 }
@@ -82,21 +82,6 @@ justify-content: center;
   /* width: 250px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-  size: inherit;
-}
-
-li {
-  background: linear-gradient(90deg,#d1aad7,#c88bc4 25.17%,#7b8fdd 50%,#86bff2 73.09%,#bbdef2);
-  -webkit-background-clip: text;
-  /* -webkit-text-fill-color: transparent; */
-}
-
-#footer{
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height:30px;
-  background: darkgray;
-  text-align: center;
-  margin-top: auto;
+  height: 90%;
+  width: 50%;
 }

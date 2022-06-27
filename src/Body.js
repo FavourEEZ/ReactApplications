@@ -1,9 +1,9 @@
 import React from "react";
-import './App.css';
+import './Body.css';
 
 export default function Body() {
     return (
-    <div>
+    <div className="">
         <h3>Functional Requirement Specification</h3>
         <ul>
             <li> Portal for members to sign in </li>
