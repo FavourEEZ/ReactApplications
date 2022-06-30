@@ -64,7 +64,7 @@
 }
 
 .wrapper-landing-content {
-  background-color: aqua;
+  background-color:#282c34;
   width: 50%;
   height: 70vh;
   float: right;
@@ -84,4 +84,8 @@ justify-content: center;
   text-align: center;
   height: 90%;
   width: 50%;
+}
+
+.Carousel {
+  color: white;
 }
