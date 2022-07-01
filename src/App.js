@@ -1,21 +1,10 @@
 import './App.css';
 import Container from '@mui/material/Container'
 import Button from '@mui/material/Button';
-import Carousel from 'react-material-ui-carousel';
-// import Item from ''
 import React from 'react';
 
 export default function App() {
-  let items = [
-    {
-        name: "Random Name #1",
-        description: "Probably the most random thing you have ever seen!"
-    },
-    {
-        name: "Random Name #2",
-        description: "Hello World!"
-    }
-  ]
+
   return (
     <div className="App">
       <header className="header-nav">
@@ -57,12 +46,8 @@ export default function App() {
             <Button variant="contained" color='success' className=''> Movies </Button>
           </div>
         </div>
-        <Carousel className="Carousel">
-            {
-                items.map( (item, i) => <li
-                >Element</li> )//<Item key={i} item={item} /> )
-            }
-        </Carousel>
+
+        
       </div>
     </div>
   );

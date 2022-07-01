@@ -1,7 +1,18 @@
 import React from "react";
 import '../Body.css';
+import Carousel from 'react-material-ui-carousel';
 
 export default function Body() {
+    let items = [
+        {
+            name: "Random Name #1",
+            description: "Probably the most random thing you have ever seen!"
+        },
+        {
+            name: "Random Name #2",
+            description: "Hello World!"
+        }
+    ]
     return (
     <div className="">
         <h3>Functional Requirement Specification</h3>
@@ -25,6 +36,13 @@ export default function Body() {
             <li> Deep connections/communitry - This is the power </li>
             <li> Exclusivity: generate international interest - Have another NFT collection for people to win a spot</li>
         </ul>
+        <Carousel className="Carousel">
+            {
+                items.map( (item, i) => <h1 style={{color: "red", fontSize: "20px"}} key={i} item={item}
+                >Element</h1> )//<Item key={i} item={item} /> )
+            }
+        </Carousel>
+        <Button>Click!</Button>
         <footer id='footer'>
             <small>© 2022 BlueOrange development. All rights reserved.</small>
         </footer>
