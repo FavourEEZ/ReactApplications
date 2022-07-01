@@ -4,11 +4,16 @@ ul {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.FRS-vision {
+    text-align: center;
+}
   
-#footer{
-bottom:0;
-width:100%;
-height:30px;
-background: darkgray;
-text-align: center;
+#footer {
+    bottom:0;
+    width:100%;
+    height:30px;
+    background: #282c34;
+    text-align: center;
+    color: wheat;
 }
