@@ -16,7 +16,7 @@
 }
 
 .logo-div {
-  color: white;
+  color: rgb(221, 35, 35);
   cursor: pointer;
 }
 
@@ -57,6 +57,7 @@
 .landing-text {
   color: wheat;
   font-size:30px;
+  /* align-items: center; */
 }
 
 .landing-text p {
