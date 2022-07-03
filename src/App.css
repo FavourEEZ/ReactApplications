@@ -52,28 +52,36 @@
   float: left;
   width: 50%;
   height: 70vh;
+  align-items: center;
 }
 
 .landing-text {
   color: wheat;
   font-size:30px;
-  /* align-items: center; */
 }
 
 .landing-text p {
   color: white;
 }
 
+.join-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* .scale-button {
+  border-radius: 50%;
+  margin: 20px;
+  background-color: red;
+
+} */
+
 .wrapper-landing-content {
-  background-color:#282c34;
+  background-color: black;/*#282c34;*/
   width: 50%;
   height: 70vh;
   float: right;
-}
-
-.join-button {
-display: flex;
-justify-content: center;
 }
 
 .Container {

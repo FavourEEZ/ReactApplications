@@ -34,6 +34,10 @@ export default function App() {
               Since 2022, we create a one of a kind cinema experience
               every month. 
             </p>
+          <div className='join-button'>
+            <Button variant="outlined" className='scale-button'> Join waiting list </Button>
+            <Button variant="outlined" color='success' className='scale-button'> Movies </Button>
+          </div>
           </div>
         </div>
         
@@ -78,10 +82,6 @@ export default function App() {
             </Carousel.Item>
           </Carousel>
 
-          <div className='join-button'>
-            <Button variant="contained" className=''> Join waiting list </Button>
-            <Button variant="contained" color='success' className=''> Movies </Button>
-          </div>
         </div>
 
         
