@@ -1,12 +1,16 @@
 import React from "react";
 import '../Body.css';
+
+import MovieHolder from "./MovieHolder";
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Body() {
 
     return (
     <div className="">
+        <MovieHolder />
         <section className="FRS-vision">
             <h3>Functional Requirement Specification</h3>
             <ul>
