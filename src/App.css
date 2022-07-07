@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-between;    
   color: white;
-  box-shadow: 0px 5px 5px wheat;
+  box-shadow: 0px 5px 5px rgb(163, 21, 21);
 }
 
 .logo-div {
@@ -44,7 +44,7 @@
 }
 
 .main-wrapper {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .wrapper-landing-text {
@@ -65,17 +65,18 @@
 }
 
 .join-button {
+  
   display: flex;
-  justify-content: center;
+  justify-content:space-evenly;
   margin-top: 20px;
+
 }
 
-/* .scale-button {
-  border-radius: 50%;
-  margin: 20px;
-  background-color: red;
 
-} */
+.scale-button:hover {
+  color: white;
+  /* opacity: 10%; */
+}
 
 .wrapper-landing-content {
   background-color: black;/*#282c34;*/

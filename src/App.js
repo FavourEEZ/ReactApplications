@@ -35,8 +35,8 @@ export default function App() {
               every month. 
             </p>
           <div className='join-button'>
-            <Button variant="outlined" className='scale-button'> Join waiting list </Button>
-            <Button variant="outlined" color='success' className='scale-button'> Movies </Button>
+            <Button variant="outlined" className='scale-button' color='success' > Join waiting list </Button>
+            <Button variant="outlined" color='error' className='scale-button'> Movies </Button>
           </div>
           </div>
         </div>
