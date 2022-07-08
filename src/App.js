@@ -83,8 +83,11 @@ export default function App() {
           </Carousel>
 
         </div>
-
         
+      </div>
+
+      <div className='get-started'>
+        <Button variant="outlined" color='error' className='scale-button' size='large' > Get Started </Button>
       </div>
     </div>
   );
