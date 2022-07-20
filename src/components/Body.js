@@ -4,13 +4,18 @@ import '../Body.css';
 import MovieHolder from "./MovieHolder";
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import movieList from "../data/movieList";
 
 
 export default function Body() {
 
+    const jsxMovieList = movieList.map(el => {
+    return <MovieHolder title={el.title} description={el.description} movieLength={el.movieLength} />
+})
+
     return (
     <div className="">
-        <MovieHolder />
+        {jsxMovieList}
         <section className="FRS-vision">
             <h3>Functional Requirement Specification</h3>
             <ul>

@@ -86,9 +86,9 @@ export default function App() {
         
       </div>
 
-      <div className='get-started'>
+      {/* <div className='get-started'>
         <Button variant="outlined" color='error' className='scale-button' size='large' > Get Started </Button>
-      </div>
+      </div> */}
     </div>
   );
 }
