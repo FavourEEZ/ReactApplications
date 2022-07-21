@@ -23,7 +23,9 @@
     background-color: blue;
 }
 
+/* .content {
+} */
+
 .movie-details {
     display: flex;
-
 }

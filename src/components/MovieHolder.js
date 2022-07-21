@@ -1,5 +1,4 @@
 import React from "react";
-import infinityWar from "./Infinity-War-poster.jpg";
 import "../MovieHolder.css";
 
 export default function MovieHolder(props) {
@@ -13,25 +12,25 @@ export default function MovieHolder(props) {
                 <p>Play trailer <i>Play icon here</i></p>
             </div>
 
-            <section>
+            <section className="content">
                 <h1>{props.title}</h1>
                 <p> {props.description}</p>
+
+
+                <div className="movie-details">
+                    <div className="movie-run time">
+                        <p>Runtime: {props.movieLength}</p>
+                    </div>
+                    <div className="">
+                        <p>Show time attributes</p>
+                        <p>Icons here </p>
+                    </div>
+
+                    <div className="showing-times">
+                        <p>20:00pm... Card Here</p>
+                    </div> 
+                </div>
             </section>
-
-            <div className="movie-details">
-                <div className="movie-run time">
-                    <p>Runtime</p>
-                    <p>{props.movieLength}</p>
-                </div>
-                <div className="">
-                    <p>Show time attributes</p>
-                    <p>Icons here </p>
-                </div>
-
-                <div className="showing-times">
-                    <p>20pm... Card Here</p>
-                </div> 
-            </div>
 
         </div>
     )
