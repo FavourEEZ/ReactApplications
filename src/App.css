@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: black;
+  background: linear-gradient(90deg,#060606,#330a0a 25.17%,#9b3e0d 50%,#e36522 73.09%,#f60606);
 }
 
 .header-nav {

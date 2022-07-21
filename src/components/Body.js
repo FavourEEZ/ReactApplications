@@ -10,7 +10,7 @@ import movieList from "../data/movieList";
 export default function Body() {
 
     const jsxMovieList = movieList.map(el => {
-    return <MovieHolder title={el.title} description={el.description} movieLength={el.movieLength} />
+    return <MovieHolder title={el.title} img={el.img} description={el.description} movieLength={el.movieLength} />
 })
 
     return (

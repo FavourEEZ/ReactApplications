@@ -7,7 +7,7 @@ export default function MovieHolder(props) {
     return (
         <div className="movieHolder">
             <div className="visuals">
-                <img src={infinityWar} width="400px"/>
+                <img src={props.img} />
                 {/* <img src={require(props.img)} /> */}
                 {/* <img src="https://images.unsplash.com/photo-1596727147705-61a532a659bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFydmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" /> */}
                 <p>Play trailer <i>Play icon here</i></p>

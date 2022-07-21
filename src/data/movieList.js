@@ -1,6 +1,9 @@
+import infinityWar from "../components/Infinity-War-poster.jpg";
+import wolfofWallStreet from "../components/Wolf-of-Wall-Street.jpg"
+
 export default [
     {
-        img: "./Infinity-War-poster.jpg",
+        img: infinityWar, //"./Infinity-War-poster.jpg",
         alt: "",
         title: "Avengers Infinity War",
         description: `A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, 
@@ -10,7 +13,7 @@ export default [
         movieLength: "2h 29m",
     },
     {
-        img: "./Wolf-of-Wall-Street.jpg",
+        img: wolfofWallStreet, //"./Wolf-of-Wall-Street.jpg",
         alt: "",
         title: "The Wolf of Wall Street",
         description: `Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker 
