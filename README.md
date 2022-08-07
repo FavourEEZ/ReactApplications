@@ -1,4 +1,4 @@
-# A suite of enterprise applications built using React. The Movie Club is a POC for the inevitable venture (BGG).
+# London's best Movie club. This app is a POC for an inevitable venture (BGG) - Favour's Movie Club.
 
 # Getting Started with Create React App
 
