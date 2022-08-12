@@ -31,7 +31,6 @@ export default function MovieHolder(props) {
                     </div> 
                 </div>
             </section>
-
         </div>
     )
 }
